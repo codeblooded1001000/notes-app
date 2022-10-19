@@ -5,12 +5,12 @@ The application has the following features:
 
 1. Adding the notes.
 2. Removing the existing note.
-3. Listing the all the titles of notes stored
+3. Listing all the titles that are present in the application.
 4. Reads a specific note, title and body, by providing the title in the command.
 
 Used various packages of npm like chalk, yargs, nodemon.
 
-1. Chalk: To specify a success or error message by defining the colour, for success message, green and for the eorror, red.
+1. Chalk: To specify a success or error message by defining the colour, for success message, green and for the error, red.
 2. Yargs: To build various commands and their description.
 3. Nodemon: To make the changes in the run-time of application.
 
