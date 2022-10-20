@@ -70,7 +70,8 @@ const readNote = (title) => {
     if(note){
         console.log(chalk.inverse(note.title))
         console.log(note.body)
-    } else {
+    } 
+    else {
         console.log(chalk.inverse.red('Note not found!'))  
     }
 }
@@ -94,6 +95,7 @@ const loadNotes = () => {
     } 
 }
 
+//exporting the function to app.js
 
 module.exports = {
     addNote: addNote,
